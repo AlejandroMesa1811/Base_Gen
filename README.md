@@ -99,7 +99,7 @@ pip install GENGraphAI
             top_p=top_p,)
         return response.text
 
-        graph.query("MATCH (n) DETACH DELETE n")
+    graph.query("MATCH (n) DETACH DELETE n")
 
       
     GENGraphAI.una_extracion(extract_entities_relationships, fragmentos[0],graph) # Method for extracting a single fragment
